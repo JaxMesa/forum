@@ -6,12 +6,13 @@
         "/" => "controllers/index.con.php",
         "/register" => "controllers/register.con.php",
         "/login" => "controllers/login.con.php",
+        "/profilepage" => "controllers/profilepage.con.php"
     ];
 
     if (array_key_exists($uri, $routes)) {
         require $routes[$uri];
     } else {
-        require "functions.php";
+        require "errors.php";
         abort(); 
     };
 ?>
