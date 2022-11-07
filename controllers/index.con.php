@@ -1,3 +1,4 @@
 <?php
 
-require "template/home.temp.php";
+    require "template/home.temp.php";
+?>

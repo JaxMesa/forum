@@ -1,3 +1,4 @@
 <?php
 
-require "template/register.temp.php";
+    require "template/register.temp.php";
+?>

@@ -1,15 +1,16 @@
 <?php
 
-// Shows code 404 "Page not found".
-function abort() {
-    http_response_code(404);
+    // Shows code 404 "Page not found".
+    function abort() {
+        http_response_code(404);
 
-    require "views/404.php";
+        require "views/404.php";
 
-    die();
-}
+        die();
+    }
 
-function urlIs($value){
-    // Returns URI of the site as value.
-    return $_SERVER["REQUEST_URI"] === $value;
-}
+    function urlIs($value){
+        // Returns URI of the site as value.
+        return $_SERVER["REQUEST_URI"] === $value;
+    }
+?>

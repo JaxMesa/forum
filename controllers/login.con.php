@@ -1,3 +1,5 @@
 <?php
 
-require "template/login.temp.php";
+    require "template/login.temp.php";
+    
+?>
